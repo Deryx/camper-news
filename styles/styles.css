@@ -52,7 +52,6 @@ section h1 {
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-bottom: 20px;
-	border: 1px solid #CCC;
 	display: inline-table;
 	position: relative;
 	background: #FFF;
@@ -103,7 +102,7 @@ section h1 {
 
 #container .votes {
 	background: rgb(255, 192, 203);
-	color: #FFF;
+	color: rgba(0, 0, 0, 0.5);
 	position: absolute;
 	bottom: 0;
 	z-index: 99;
@@ -111,7 +110,7 @@ section h1 {
 	height: 30px;
 	margin: 0;
 	text-indent: 10px;
-	padding-top: 10px;
+	padding-top: 12px;
 	font-size: 90%;
 	font-weight: bold;
 	text-transform: uppercase;
