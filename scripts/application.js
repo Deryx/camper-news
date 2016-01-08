@@ -7,6 +7,7 @@ $(function() {
 			var username = "<p class='user'><a href='http://www.freecodecamp.com/" + this.author.username + "' target='_blank'>" + this.author.username + "</a></p>"
 			
 			var headlineLink = this.link;
+			this.headline = this.headline.replace(/\//g, " - ");
 			var headline = "<p><a href='" + headlineLink + "' target='_blank'>" + this.headline + "</a></p>";
 			
 			var numberUpvotes = this.upVotes.length

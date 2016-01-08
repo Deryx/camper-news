@@ -97,7 +97,7 @@ section h1 {
 }
 
 #container p a:hover {
-	text-decoration: underline;
+	font-weight: bold;
 }
 
 #container .votes {
